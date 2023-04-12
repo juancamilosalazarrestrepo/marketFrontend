@@ -1,0 +1,23 @@
+.productsContainerSwiper {
+  width: 70%;
+  margin-top: 10px;
+  padding: 30px 0;
+
+}
+
+.swiperContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.productSwiper{
+ padding: 70px 0px;
+ margin-top: -70px;
+
+}
+
+
+.productItem{
+   padding: 0 5px;
+}
