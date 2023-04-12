@@ -1,5 +1,5 @@
 import { useProducts } from '../../hooks/useProducts'
-import Banners from '../../components/Banners/banners'
+import Banners from '../../components/Banners/Banners'
 import CategoryMenu from '../../components/CategoryMenu/CategoryMenu'
 import NavBar from '../../components/navBar/NavBar'
 import './Home.css'
