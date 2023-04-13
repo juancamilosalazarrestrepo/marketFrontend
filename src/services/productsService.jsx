@@ -1,7 +1,7 @@
 export const products = async () => {
   let productsResponse = []
   try {
-    const response = await fetch('http://34.202.144.243:3500/api/v1/products', {
+    const response = await fetch('https://34.202.144.243:3200/api/v1/products', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json'
@@ -21,7 +21,7 @@ export const getProductById = async (idProduct) => {
 
   try {
     const response = await fetch(
-      `http://34.202.144.243:3500/api/v1/products/${idProduct}`,
+      `https://34.202.144.243:3200/api/v1/products/${idProduct}`,
       {
         method: 'GET',
         headers: {
@@ -41,7 +41,7 @@ export const getProductById = async (idProduct) => {
 export const createProduct = async (dataProduct) => {
   let productResponse = []
   try {
-    const response = await fetch('http://34.202.144.243:3500/api/v1/products', {
+    const response = await fetch('https://34.202.144.243:3200/api/v1/products', {
       method: 'POST',
       body: dataProduct
     })
@@ -59,7 +59,7 @@ export const editProduct = async (dataProduct, idProduct, user) => {
 
   try {
     const response = await fetch(
-      `http://34.202.144.243:3500/api/v1/products/${idProduct}`,
+      `https://34.202.144.243:3200/api/v1/products/${idProduct}`,
       {
         method: 'PATCH',
         headers: {
@@ -82,7 +82,7 @@ export const deleteProduct = async (idProduct, user) => {
 
   try {
     const response = await fetch(
-      `http://34.202.144.243:3500/api/v1/products/${idProduct}`,
+      `https://34.202.144.243:3200/api/v1/products/${idProduct}`,
       {
         method: 'DELETE',
         headers: {

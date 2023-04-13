@@ -7,7 +7,7 @@ function ProductCard ({ product }) {
       <div className='productCard' key={product.id}>
         <img
           className='productImage'
-          src={`http://34.202.144.243:3500/img/products/${product.image}`}
+          src={`https://34.202.144.243:3200/img/products/${product.image}`}
           alt={`imagen de ${product.name}`}
         />
         <span className='productName'>{product.name}</span>

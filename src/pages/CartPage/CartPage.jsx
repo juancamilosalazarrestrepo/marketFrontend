@@ -97,7 +97,7 @@ function CartPage () {
                   return (
                     <div key={product.id} className='productListItem'>
                       <img
-                        src={`http://34.202.144.243:3500/img/products/${product.image}`}
+                        src={`https://34.202.144.243:3200/img/products/${product.image}`}
                         alt={`imagen de ${product.name}`}
                         className='imgProductCart'
                       />

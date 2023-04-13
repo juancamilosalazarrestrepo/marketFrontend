@@ -1,7 +1,7 @@
 export const categories = async () => {
   let categoriesResponse = []
   try {
-    const response = await fetch('http://34.202.144.243:3500/api/v1/categories', {
+    const response = await fetch('https://34.202.144.243:3200/api/v1/categories', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json'
