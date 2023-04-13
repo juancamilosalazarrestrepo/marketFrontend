@@ -8,7 +8,7 @@ const createUser = async ({ name, password, email, phone }) => {
   }
 
   try {
-    const response = await fetch('http://34.202.144.243:3500/api/v1/users', {
+    const response = await fetch('https://34.202.144.243:3200/api/v1/users', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
